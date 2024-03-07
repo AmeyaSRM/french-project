@@ -1,0 +1,64 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FDE5D4; /* Rosy creme background */
+    color: #001524; /* Almost black text color */
+}
+
+header {
+    background-color: #445D48; /* Olive green header background */
+    padding: 20px;
+    text-align: center;
+}
+
+h1 a {
+    color: #FDE5D4; /* Rosy creme color for the header link */
+    text-decoration: none;
+    font-size: 36px;
+}
+
+main {
+    padding: 20px;
+}
+
+#history {
+    margin-bottom: 40px; /* Add space between sections */
+    background-color: #FDE5D4; /* Rosy creme background color */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+h2 {
+    color: #445D48; /* Olive green color for section headers */
+    font-family: 'Arial', sans-serif; /* Aesthetic font family */
+}
+
+p {
+    line-height: 1.6; /* Increase line height for better readability */
+}
+
+.menu-icon {
+    display: none; /* Hide the menu icon by default */
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Add space between buttons */
+}
+
+button {
+    background-color: #445D48; /* Olive green color for buttons */
+    color: #FDE5D4; /* Rosy creme text color */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #5E3023; /* Espresso color on hover */
+}
